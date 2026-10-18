@@ -5,7 +5,7 @@ app = Flask(__name__)
 CORS(app)  # Allows browser-based graders to call this endpoint
 
 API_KEY = "ak_mqstxggts397vqf50xb313n6"
-EMAIL = "your_logged_in_email@example.com"  # Replace this!
+EMAIL = "23f3000791@ds.study.iitm.ac.in"  # Replace this!
 
 @app.route("/analytics", methods=["POST"])
 def analytics():
